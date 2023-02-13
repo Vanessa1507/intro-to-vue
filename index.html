@@ -18,7 +18,8 @@
       </div>
       <div class="product-info">
         <h1>{{product}}</h1>
-        <a :href="href" target="_blank">Link</a>
+        <p v-show="inStock">In Stock</p>
+        <span v-if="onSale">On sale</span>
       </div>
     </div>
   </div>
