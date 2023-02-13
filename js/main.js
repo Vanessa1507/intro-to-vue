@@ -2,6 +2,7 @@ var app = new Vue({
 	el: "#app",
 	data: {
 		product: "Socks",
-		description: "Bla bla bla"
+		image: "./assets/green-socks.jpeg",
+		href: "https://www.google.com/"
 	}
 })
